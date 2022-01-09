@@ -1,5 +1,5 @@
 body {
-background: url("https://img1.akspic.ru/originals/7/7/2/8/2/128277-otrazhenie-gejmer-dnevnoe_vremya-video-vodnyj_put-1920x1080.jpg");
+    background-color: #4a4a4a;
 }
 
 .cube {
@@ -7,7 +7,7 @@ background: url("https://img1.akspic.ru/originals/7/7/2/8/2/128277-otrazhenie-ge
     width: 300px;
     height: 300px;
     transform-style: preserve-3d;
-    animation: animate  10s linear infinite;
+    animation: animate 10s linear infinite;
 }
 
 @keyframes animate {
@@ -34,25 +34,9 @@ background: url("https://img1.akspic.ru/originals/7/7/2/8/2/128277-otrazhenie-ge
     left: 0;
     width: 100%;
     height: 100%;
-    background: url("https://www.meme-arsenal.com/memes/6fc9e067823f939cfb2d2e0729e13640.jpg");
+    background: linear-gradient(#0084ff, #e97c00);    
 
     transform: rotateY(calc(90deg * var(--i))) translateZ(150px);
-    box-shadow: 0 0 150px  rgb(172, 150, 25);
 
 }
-.top {
- position: absolute;
- top: 0;
- left: 0;
- width: 300px;
- height: 300px;
- background: url("https://www.meme-arsenal.com/memes/6fc9e067823f939cfb2d2e0729e13640.jpg");
- transform: rotateX(90deg) translateZ(150px);
- 
-}
-.main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 900px;
-}
+
